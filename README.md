@@ -56,5 +56,5 @@ E('#boosh a.foo').each(fn);
 
 GETTING STARTED WITH THE JEESH
 ------------------------------
-If you're looking to test drive this setup, have a play with [the compiled source](http://ender-js.s3.amazonaws.com/ender.min.js)
+If you're looking to test drive this setup, have a play with [the compiled source](http://ender-js.s3.amazonaws.com/jeesh.min.js)
 <iframe id="fiddle-example" src="http://jsfiddle.net/yakWA/2/embedded/"></iframe>
