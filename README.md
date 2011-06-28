@@ -13,40 +13,48 @@ BUILDING
 
 To build the jeesh... just run:
 
-    ender -b jeesh
-
+    $ ender -b jeesh
 
 WHAT DOES THIS SETUP LOOK LIKE?
 -------------------------------
 
 <h3>domready</h3>
 
-    $.domReady(function () {...})
+``` js
+$.domReady(function () {...})
+```
 
 <h3>DOM queries</h3>
 
-    $('#boosh a[rel~="bookmark"]').each(function (el) { ... });
+``` js
+$('#boosh a[rel~="bookmark"]').each(function (el) { ... });
+```
 
 <h3>Manipulation</h3>
 
-    $('#boosh p a[rel~="bookmark"]').hide().html('hello').css({
-      color: 'red',
-      'text-decoration': 'none'
-    }).addClass('blamo').after('✓').show();
+``` js
+$('#boosh p a[rel~="bookmark"]').hide().html('hello').css({
+  color: 'red',
+  'text-decoration': 'none'
+}).addClass('blamo').after('✓').show();
+```
 
 <h3>Events</h3>
 
-    $('#content a').bind('keydown input', handler);
-    $('#content a').emit('customEvent');
-    $('#content a').remove('click.myClick');
+``` js
+$('#content a').bind('keydown input', handler);
+$('#content a').emit('customEvent');
+$('#content a').remove('click.myClick');
+```
 
 <h3>No Conflict</h3>
 
-    var ender = $.noConflict(); // return '$' back to its original owner
-    ender('#boosh a.foo').each(fn);
-
+``` js
+var E = $.noConflict(); // return '$' back to its original owner
+E('#boosh a.foo').each(fn);
+```
 
 GETTING STARTED WITH THE JEESH
 ------------------------------
-If you're looking to test drive this setup, have a play with [the compiled source](http://ender-js.s3.amazonaws.com/ender.min.js)
+If you're looking to test drive this setup, have a play with [the compiled source](http://ender-js.s3.amazonaws.com/jeesh.min.js)
 <iframe id="fiddle-example" src="http://jsfiddle.net/yakWA/2/embedded/"></iframe>
