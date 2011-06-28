@@ -13,6 +13,5 @@
     "qwery": "*",
     "bonzo": "*",
     "bean": "*"
-  },
-  "ender": "noop"
+  }
 }
