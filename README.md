@@ -13,7 +13,7 @@ BUILDING
 
 To build the jeesh... just run:
 
-    $ ender -b jeesh
+    $ ender build jeesh
 
 WHAT DOES THIS SETUP LOOK LIKE?
 -------------------------------
