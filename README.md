@@ -3,7 +3,7 @@ THE JEESH
 
 The Jeesh is like a starter pack for ender. At only *7.5k* the Jeesh can help you build anything from small prototypes to providing a solid base for large-scale rich application for desktop and mobile devices. At it's core, it's a collection of packages that we've found particularly useful for major use-case development endeavors -- but we encourage use to <code>add</code> and <code>remove</code> packages to really make it your own. Currently, the Jeesh includes:
 
-  * domReady - a cross-browser [domReady](github.com/ded/domready)
+  * domReady - a cross-browser [domReady](https://github.com/ded/domready)
   * Qwery - a fast light-weight [selector engine](https://github.com/ded/qwery)
   * Bonzo - a bullet-proof [DOM utility](https://github.com/ded/bonzo)
   * Bean - a multi-platform [Event provider](https://github.com/fat/bean)
