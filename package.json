@@ -1,7 +1,7 @@
 {
   "name": "jeesh",
   "description": "The official starter pack for Ender.",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "authors": ["Dustin Diaz <@ded>", "Jacob Thornton <@fat>"],
   "keywords": ["ender", "jeesh"],
   "homepage": "https://github.com/ender-js/jeesh",
@@ -9,9 +9,9 @@
     "node": ">= 0.4.0"
   },
   "dependencies": {
-    "domready": "*",
-    "qwery": "*",
-    "bonzo": "*",
-    "bean": "*"
+    "domready": "0.2.10",
+    "qwery": "3.1.1",
+    "bonzo": "0.8.0",
+    "bean": "0.3.0"
   }
 }
